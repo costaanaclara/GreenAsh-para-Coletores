@@ -1,0 +1,45 @@
+body{
+    font-family: "Estandar W03 Black";
+    background-color: #19c63b;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* MENU */
+.container-menu{
+    
+    background-color: #26973c;
+    width: 100%;
+    height: 8vh;
+   display: flex;
+   justify-content: space-between;
+
+   padding-right: 10%;
+   padding-left: 10%;
+   padding-top: 3%;
+   
+}
+
+/* BOTÃO RETORNAR - PRINCIPAL */
+.retornar-principal{
+    width: 5vh;
+    height: 5vh;
+    
+    border-radius: 50%;
+    background-color: #19c63b;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TÍTULO - MENU */
+.titulo-menu{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 30%;
+}

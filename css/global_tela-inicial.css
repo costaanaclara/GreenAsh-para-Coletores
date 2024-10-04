@@ -1,0 +1,109 @@
+body{
+    font-family: "Estandar W03 Black";    
+}
+
+a{
+    text-decoration: none;
+    color: #19c63b;   
+}
+
+/* CONTAINER LOGO */
+.container-logo{
+    width: 30%;
+    height: 30%;
+
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+/* configuração logo */
+.container-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+/* TÍTULO SUPERIOR */
+.titulo-superior{
+    color: #19c63b;
+
+    margin-left: 24%;
+    margin-top: 25%;
+}
+
+/* CONTAINER LOGIN */
+.container-login{
+    color: #737373;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+/* comando: digitar login */
+.digitar-login{
+    width: 65%;
+    height: 7vh;
+
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 3vh 3vh 3vh 3vh;
+
+    background-color: #a6a6a6;
+    border-color: #a6a6a6;
+    
+    padding-left: 2vh;  
+}
+
+/* comando: digitar senha */
+.digitar-senha{
+    width: 65%;
+    height: 7vh;
+
+    margin-bottom: 2%;
+    border-radius: 3vh 3vh 3vh 3vh;
+
+    background-color: #a6a6a6;
+    border-color: #a6a6a6;
+
+    padding-left: 2vh;    
+}
+
+/* botão: entrar */
+.botao-entrar{
+    width: 40%;
+    height: 6vh;
+
+    margin-top: 1%;
+
+    border-radius: 3vh 3vh 3vh 3vh;
+
+    background-color: #26973c;
+    border-radius: #26973c;
+
+    font-size: 20px;
+}
+
+
+/* botão: esquecer */
+.botao-esquecer{
+    margin-top: 3%;
+}
+
+/* "obrigado por fazer parte do" */
+.texto-superior{
+    color: #737373;
+}
+
+/* "TIME GREEN ASH" */
+.titulo-inferior{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20%;
+
+    color: #1CC63D;
+}

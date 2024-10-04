@@ -1,0 +1,121 @@
+body{
+    font-family: "Estandar W03 Black";    
+}
+
+/* CONTAINER LOGO */
+.container-logo{
+    width: 30%;
+    height: 30%;
+
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+/* configuração logo */
+.container-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/* CONTAINER TÍTULO */
+.container-titulo{
+    margin-top: 25%;
+    margin-bottom: 10%;
+}
+
+/* TÍTULO */
+.titulo{
+    color: #19c63b;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* CONTAINER RELATÓRIO */
+.container-relatorio{
+    width: 80%;
+    height: 18vh;
+    
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    
+    background-color: #a6a6a6;
+    border-radius: 3vh 3vh 3vh 3vh;
+
+    position: relative;
+}
+
+/* TÍTULO RELATÓRIO */
+.titulo-relatorio{
+    display: flex;
+    justify-content: center;
+    color: #545454;
+}
+
+/* INFORMAÇÕES RELATÓRIO */
+.informacoes-relatorio{
+    margin-left: 5%;
+}
+
+/* linha relatório: GANHOS */
+.dados{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5vh;
+}
+
+/* ÍCONES RELATÓRIO */
+.icone{
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    background-color: #737373;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* informacão do relatório */
+.informacao{
+    display: flex;
+    text-align: center;
+}
+
+/* COMANDO - RELATÓRIO */
+.comando-relatorio{
+    padding-left: 1vh;
+    color: #545454;
+}
+
+/* RESPOSTA - RELATÓRIO */
+.resposta-relatorio{
+    padding-left: 0.5vh;
+    color: #545454;
+}
+
+
+
+
+/* BOTÃO VOLTAR - PRINCIPAL */
+.botao-voltar{
+    width: 60%;
+    height: 5vh;
+
+    background-color: #26973c;
+    color: #19c63b;
+    border-color: #19c63b;
+
+    margin-left: 20%;
+    border-radius: 3vh 3vh 3vh 3vh;
+}

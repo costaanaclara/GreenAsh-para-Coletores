@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenAsh Coletores</title>
+
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./css/global_tela-chamado.css">
+
+    <!-- Link Fonts -->
+    <link href="https://db.onlinewebfonts.com/c/4f7b230c42c836339fa517d3106f9c92?family=Estandar+W03+Black" rel="stylesheet">
+</head>
+<body>
+
+    <!-- CONTAINER LOGO -->
+    <div class="container-logo">
+
+        <!-- LOGO: imagem -->
+        <img class="imagem-logo" src="./assets/logo-solo.png" alt="logo">
+
+    </div>
+
+    <!-- CONTAINER CHAMADO -->
+    <div class="container-chamado">
+
+        <!-- COMANDO: tipo de chamado -->
+        <h5 class="comando">TIPO DE CHAMADO:</h5>
+
+        <!-- BOTÃO: escolha do tipo de chamado -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              escolha o tipo de chamado
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><button class="dropdown-item" type="button">Não consigo logar</button></li>
+              <li><button class="dropdown-item" type="button">Erro na notificação</button></li>
+              <li><button class="dropdown-item" type="button">Erro no relatório</button></li>
+              <li><button class="dropdown-item" type="button">Outro</button></li>
+            </ul>
+        </div>
+
+        <!-- COMANDO: relate o problema -->
+        <h5 class="comando">RELATE O PROBLEMA:</h5>
+
+        <!-- INPUT: relatar o problema-->
+        <input class="relatar-problema" type="text" placeholder="relatar o problema">
+    </div>
+
+    <!-- CONTAINER BOTÃO -->
+    <div class="container-botao">
+        <a href="tela-final.html"> <button class="botao">ENVIAR CHAMADO</button> </a>
+        <a href="tela-final.html"> <button class="botao">CANCELAR CHAMADO</button> </a>
+    </div>
+
+    <!-- MENSAGEM -->
+    <h6 class="mensagem">em breve resolveremos seu problema</h6>
+
+    <!-- Link script - Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

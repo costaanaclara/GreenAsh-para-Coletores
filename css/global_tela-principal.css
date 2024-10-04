@@ -1,0 +1,277 @@
+body{
+    font-family: "Estandar W03 Black";
+}
+
+a{
+    text-decoration: none;
+    color: #545454;
+}
+
+
+
+/* CONTAINER LOGO */ 
+.container-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-left: 25%;
+    margin-top: 20%;
+
+    width: 50%;
+    height: 30%;
+}
+
+/* LOGO: imagem */
+.imagem-logo{
+    width: 85%;      
+}
+
+/* LOGO: subtítulo */
+.subtitulo-logo{
+    color: #19c63b;
+    font-family: "Estandar W03 Black";
+}
+
+
+
+
+
+/* CONTAINER SITUAÇÃO */
+.container-situacao{
+    width: 80%;
+    height: 11vh;
+
+    border-radius: 3vh 3vh 3vh 3vh;
+    background-color: #19c63b;
+    
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+/* SITUAÇÃO DE COLETA: div */
+.situacao{
+    justify-content: center;
+     display: flex;
+     text-align: center;    
+}
+
+/* ÍCONE: situação*/
+.indisponivel{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/* ÍCONE: situação*/
+.localizacao{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/* COMANDO - SITUAÇÃO */
+.comando-situacao{
+    color: #545454;
+}
+
+/* RESPOSTA - SITUAÇÃO */
+.resposta-situacao{
+    padding-left: 1vh ;
+    color: white;
+}
+
+
+
+
+
+/* CONTAINER RELATÓRIO */
+.container-relatorio{
+    width: 80%;
+    height: 18vh;
+    
+    margin-top: 3%;
+    margin-left: 10%;
+    padding-top: 5%;
+    
+    background-color: #a6a6a6;
+    border-radius: 3vh 3vh 3vh 3vh;
+
+    position: relative;
+}
+
+/* TÍTULO RELATÓRIO */
+.titulo-relatorio{
+    display: flex;
+    justify-content: center;
+    color: #545454;
+}
+
+/* INFORMAÇÕES RELATÓRIO */
+.informacoes-relatorio{
+    margin-left: 5%;
+}
+
+/* ÍCONE - título relatório */
+.visualizacao{
+    margin-left: 1vh;
+    margin-top: 0.5vh;
+}
+
+/* linha relatório: GANHOS */
+.dados{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5vh;
+}
+
+/* ÍCONES RELATÓRIO */
+.icone{
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    background-color: #737373;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* informacão do relatório */
+.informacao{
+    display: flex;
+    text-align: center;
+}
+
+/* COMANDO - RELATÓRIO */
+.comando-relatorio{
+    padding-left: 1vh;
+    color: #545454;
+}
+
+/* RESPOSTA - RELATÓRIO */
+.resposta-relatorio{
+    padding-left: 0.5vh;
+    color: #545454;
+}
+
+
+
+
+
+/* TÍTULO NOTIFICAÇÕES */
+.titulo-notificacoes{
+    margin-top: 10%;
+    margin-bottom: 3%;
+    
+    color: #545454;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* CAIXA DE NOTIFICAÇÃO*/
+.caixa-notificacao{
+    width: 80%;
+    height: 9vh;
+    
+    background-color: #26973c;
+    border-radius: 3vh 3vh 3vh 3vh;
+
+    position: relative;
+
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}   
+
+/* DADOS DA NOTIFICAÇÃO */
+.dados-notificacao{
+    width: 60%;
+    padding-top: 5%;
+    padding-left: 5%;
+    
+}
+
+/* INFORMAÇÃO DA NOTIFICAÇÃO */
+.informacao-notificacao{
+    display: flex;
+    height: 3vh;
+}
+
+/* RESPOSTA DA NOTIFICAÇÃO */
+.resposta-notificacao{
+    margin-left: 3%;
+    color: white;
+}
+
+/* COMANDO DA NOTIFICAÇÃO */
+.comando-notificacao{
+    color: #19c63b;
+}
+
+/* VALOR DA NOTIFICACAO */
+.valor-notificacao{
+    width:30%;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 1%;
+    margin-left: 9%;
+}
+
+
+
+
+
+/* CONTAINER FUNDO */
+.container-fundo{
+    width: 100%;
+    height: 50vh;
+
+    margin-top: -80%;
+    
+    background-color: #19c63b; 
+}
+
+
+
+
+
+/* CONTAINER RODAPÉ */
+.container-rodape{
+    width: 100%;
+    height: 8vh;
+
+    background-color: #26973c;
+    
+    display: flex;
+    justify-content: space-between;
+
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+/* ÍCONES RODAPÉ */
+.icone-rodape{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: #19c63b;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BOTÃO ENCERRAR */
+.encerrar-coleta{
+    width: 15vh;
+    height: 80%;
+    border-radius: 3vh 3vh 3vh 3vh;
+
+    background-color: #19c63b;
+    border-color: #19c63b;
+    color: #545454;
+}
